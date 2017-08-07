@@ -1,0 +1,62 @@
+#root {
+ -fx-background-color:  linear-gradient(lightgray, gray);
+ -fx-border-color: white;
+ -fx-border-radius: 20;
+ -fx-padding: 10 10 10 10;
+ -fx-background-radius: 20;
+
+}
+
+#bp {
+ -fx-background-color:  linear-gradient(gray,DimGrey );
+
+}
+
+#btnLogin {
+    -fx-background-radius: 30, 30, 29, 28;
+    -fx-padding: 3px 10px 3px 10px;
+    -fx-background-color: linear-gradient(orange, orangered );
+}
+
+#btnLogin:hover {
+	-fx-background-color:  linear-gradient(lightgray, gray);
+}
+
+#text {
+ -fx-fill:  linear-gradient(orange , orangered);
+}
+
+.error {
+  -fx-text-box-border: red ;
+  -fx-focus-color: red ;
+}
+
+.radio-button .radio {
+
+    -fx-border-width: 1px;
+    -fx-border-color: #000;
+    -fx-background-color: white;
+    -fx-background-image: null;
+    -fx-border-radius: 15px;
+    -fx-padding: 4px;
+}
+.radio-button .radio:selected {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:armed {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:determinate {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:indeterminate {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button .dot {
+    -fx-background-radius: 10px;
+    -fx-padding: 5px;
+}

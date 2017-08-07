@@ -1,0 +1,15 @@
+//sets the draw mode
+		gm.setDrawMode(DrawMode.FILL);
+
+		// sets up the on click method for the item
+		gm.setOnMouseClicked(new EventHandler<MouseEvent>() {
+			@Override
+			public void handle(MouseEvent event) {
+				if(event.getButton() == MouseButton.PRIMARY){
+					gm.getItem().leftClick();
+				}
+				else if(event.getButton() == MouseButton.SECONDARY){
+					gm.getItem().rightClick();
+				}
+			}
+		});
